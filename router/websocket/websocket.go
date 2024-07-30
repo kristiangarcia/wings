@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pterodactyl/wings/internal/models"
+	"github.com/0x7d8/wings/internal/models"
 
 	"emperror.dev/errors"
 	"github.com/apex/log"
@@ -18,13 +18,13 @@ import (
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
 
-	"github.com/pterodactyl/wings/system"
+	"github.com/0x7d8/wings/system"
 
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/environment/docker"
-	"github.com/pterodactyl/wings/router/tokens"
-	"github.com/pterodactyl/wings/server"
+	"github.com/0x7d8/wings/config"
+	"github.com/0x7d8/wings/environment"
+	"github.com/0x7d8/wings/environment/docker"
+	"github.com/0x7d8/wings/router/tokens"
+	"github.com/0x7d8/wings/server"
 )
 
 const (

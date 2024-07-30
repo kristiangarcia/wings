@@ -6,7 +6,7 @@ import (
 	"emperror.dev/errors"
 	"github.com/goccy/go-json"
 
-	"github.com/pterodactyl/wings/system"
+	"github.com/0x7d8/wings/system"
 )
 
 // Event represents an Event sent over a Bus.

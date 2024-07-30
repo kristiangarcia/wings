@@ -11,10 +11,10 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/events"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/system"
+	"github.com/0x7d8/wings/environment"
+	"github.com/0x7d8/wings/events"
+	"github.com/0x7d8/wings/remote"
+	"github.com/0x7d8/wings/system"
 )
 
 type Metadata struct {

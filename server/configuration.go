@@ -3,7 +3,7 @@ package server
 import (
 	"sync"
 
-	"github.com/pterodactyl/wings/environment"
+	"github.com/0x7d8/wings/environment"
 )
 
 type EggConfiguration struct {

@@ -5,10 +5,10 @@ import (
 	"github.com/apex/log"
 	"github.com/gin-gonic/gin"
 
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/router/middleware"
-	wserver "github.com/pterodactyl/wings/server"
+	"github.com/0x7d8/wings/config"
+	"github.com/0x7d8/wings/remote"
+	"github.com/0x7d8/wings/router/middleware"
+	wserver "github.com/0x7d8/wings/server"
 )
 
 // Configure configures the routing infrastructure for this daemon instance.
@@ -78,6 +78,8 @@ func Configure(m *wserver.Manager, client remote.Client) *gin.Engine {
 		server.POST("/reinstall", postServerReinstall)
 		server.POST("/sync", postServerSync)
 		server.POST("/ws/deny", postServerDenyWSTokens)
+
+		server.GET("/version", getInstalledVersion)
 
 		// This archive request causes the archive to start being created
 		// this should only be triggered by the panel.

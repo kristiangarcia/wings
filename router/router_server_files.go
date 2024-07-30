@@ -18,13 +18,13 @@ import (
 	"github.com/gin-gonic/gin"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/internal/models"
-	"github.com/pterodactyl/wings/router/downloader"
-	"github.com/pterodactyl/wings/router/middleware"
-	"github.com/pterodactyl/wings/router/tokens"
-	"github.com/pterodactyl/wings/server"
-	"github.com/pterodactyl/wings/server/filesystem"
+	"github.com/0x7d8/wings/config"
+	"github.com/0x7d8/wings/internal/models"
+	"github.com/0x7d8/wings/router/downloader"
+	"github.com/0x7d8/wings/router/middleware"
+	"github.com/0x7d8/wings/router/tokens"
+	"github.com/0x7d8/wings/server"
+	"github.com/0x7d8/wings/server/filesystem"
 )
 
 // getServerFileContents returns the contents of a file on the server.

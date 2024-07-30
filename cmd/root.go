@@ -25,16 +25,16 @@ import (
 	"golang.org/x/crypto/acme"
 	"golang.org/x/crypto/acme/autocert"
 
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/internal/cron"
-	"github.com/pterodactyl/wings/internal/database"
-	"github.com/pterodactyl/wings/loggers/cli"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/router"
-	"github.com/pterodactyl/wings/server"
-	"github.com/pterodactyl/wings/sftp"
-	"github.com/pterodactyl/wings/system"
+	"github.com/0x7d8/wings/config"
+	"github.com/0x7d8/wings/environment"
+	"github.com/0x7d8/wings/internal/cron"
+	"github.com/0x7d8/wings/internal/database"
+	"github.com/0x7d8/wings/loggers/cli"
+	"github.com/0x7d8/wings/remote"
+	"github.com/0x7d8/wings/router"
+	"github.com/0x7d8/wings/server"
+	"github.com/0x7d8/wings/sftp"
+	"github.com/0x7d8/wings/system"
 )
 
 var (
@@ -434,8 +434,8 @@ __ [blue][bold]Pterodactyl[reset] _____/___/_______ _______ ______
 Copyright © 2018 - %d Dane Everitt & Contributors
 
 Website:  https://pterodactyl.io
- Source:  https://github.com/pterodactyl/wings
-License:  https://github.com/pterodactyl/wings/blob/develop/LICENSE
+ Source:  https://github.com/0x7d8/wings
+License:  https://github.com/0x7d8/wings/blob/develop/LICENSE
 
 This software is made available under the terms of the MIT license.
 The above copyright notice and this permission notice shall be included

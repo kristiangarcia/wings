@@ -4,7 +4,7 @@
 
 ### Added
 
-* Support relative file paths for the Wings config ([#180](https://github.com/pterodactyl/wings/pull/180))
+* Support relative file paths for the Wings config ([#180](https://github.com/0x7d8/wings/pull/180))
 
 ### Fixed
 
@@ -20,9 +20,9 @@
 ## v1.11.12
 
 ### Fixed
-* Arbitrary File Write/Read ([GHSA-gqmf-jqgv-v8fw](https://github.com/pterodactyl/wings/security/advisories/GHSA-gqmf-jqgv-v8fw))
-* Server-side Request Forgery (SSRF) during remote file pull ([GHSA-qq22-jj8x-4wwv](https://github.com/pterodactyl/wings/security/advisories/GHSA-qq22-jj8x-4wwv))
-* Invalid `Content-Type` being used with the `wings diagnostics` command ([#186](https://github.com/pterodactyl/wings/pull/186))
+* Arbitrary File Write/Read ([GHSA-gqmf-jqgv-v8fw](https://github.com/0x7d8/wings/security/advisories/GHSA-gqmf-jqgv-v8fw))
+* Server-side Request Forgery (SSRF) during remote file pull ([GHSA-qq22-jj8x-4wwv](https://github.com/0x7d8/wings/security/advisories/GHSA-qq22-jj8x-4wwv))
+* Invalid `Content-Type` being used with the `wings diagnostics` command ([#186](https://github.com/0x7d8/wings/pull/186))
 
 ## v1.11.11
 ### Fixed
@@ -58,13 +58,13 @@
 
 ## v1.11.5
 ### Added
-* Added a config option to disable Wings config.yml updates from the Panel (https://github.com/pterodactyl/wings/commit/ec6d6d83ea3eb14995c24f001233e85b37ffb87b)
+* Added a config option to disable Wings config.yml updates from the Panel (https://github.com/0x7d8/wings/commit/ec6d6d83ea3eb14995c24f001233e85b37ffb87b)
 
 ### Changed
 * Wings is now built with Go 1.19.7
 
 ### Fixed
-* Fixed archives containing partially matched file names (https://github.com/pterodactyl/wings/commit/43b3496f0001cec231c80af1f9a9b3417d04e8d4)
+* Fixed archives containing partially matched file names (https://github.com/0x7d8/wings/commit/43b3496f0001cec231c80af1f9a9b3417d04e8d4)
 
 ## v1.11.4
 ### Fixed

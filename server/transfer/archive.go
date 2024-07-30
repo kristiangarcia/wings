@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/pterodactyl/wings/internal/progress"
-	"github.com/pterodactyl/wings/server/filesystem"
+	"github.com/0x7d8/wings/internal/progress"
+	"github.com/0x7d8/wings/server/filesystem"
 )
 
 // Archive returns an archive that can be used to stream the contents of the

@@ -5,7 +5,7 @@ import (
 
 	"github.com/gbrlsnchs/jwt/v3"
 
-	"github.com/pterodactyl/wings/config"
+	"github.com/0x7d8/wings/config"
 )
 
 type TokenData interface {
