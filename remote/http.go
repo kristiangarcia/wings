@@ -3,7 +3,6 @@ package remote
 import (
 	"bytes"
 	"context"
-	"crypto/tls"
 	"fmt"
 	"io"
 	"net/http"
@@ -51,11 +50,6 @@ func New(base string, opts ...ClientOption) Client {
 		baseUrl: strings.TrimSuffix(base, "/") + "/api/remote",
 		httpClient: &http.Client{
 			Timeout: time.Second * 15,
-			Transport: &http.Transport{
-				TLSClientConfig: &tls.Config{
-					InsecureSkipVerify: true,
-				},
-			},
 		},
 		maxAttempts: 0,
 	}
