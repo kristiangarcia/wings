@@ -49,6 +49,10 @@ func getInstalledVersion(c *gin.Context) {
 		}
 	}
 
+	if jar == "" {
+		jar = "server.jar"
+	}
+
 	// check if libraries/net/minecraftforge/forge folder exists
 	if _, err := fs.Stat("libraries/net/minecraftforge/forge"); err == nil {
 		// get first folder in libraries/net/minecraftforge/forge
