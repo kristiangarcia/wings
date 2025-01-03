@@ -2,6 +2,7 @@ package server
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"net/http"
 	"os"
@@ -11,7 +12,6 @@ import (
 	"emperror.dev/errors"
 	"github.com/apex/log"
 	"github.com/creasty/defaults"
-	"github.com/goccy/go-json"
 
 	"github.com/0x7d8/wings/config"
 	"github.com/0x7d8/wings/environment"

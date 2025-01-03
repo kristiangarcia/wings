@@ -11,7 +11,7 @@ import (
 
 	"emperror.dev/errors"
 	"github.com/apex/log"
-	"github.com/mholt/archiver/v4"
+	"github.com/mholt/archives"
 	"golang.org/x/sync/errgroup"
 
 	"github.com/0x7d8/wings/config"
@@ -19,9 +19,10 @@ import (
 	"github.com/0x7d8/wings/server/filesystem"
 )
 
-var format = archiver.CompressedArchive{
-	Compression: archiver.Gz{},
-	Archival:    archiver.Tar{},
+var format = archives.CompressedArchive{
+	Compression: archives.Gz{},
+	Archival:    archives.Tar{},
+	Extraction:  archives.Tar{},
 }
 
 type AdapterType string
