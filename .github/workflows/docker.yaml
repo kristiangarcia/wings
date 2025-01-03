@@ -17,9 +17,6 @@ jobs:
       packages: write
     # Always run against a tag, even if the commit into the tag has [docker skip] within the commit message.
     if: "!contains(github.ref, 'develop') || (!contains(github.event.head_commit.message, 'skip docker') && !contains(github.event.head_commit.message, 'docker skip'))"
-    permissions:
-      contents: read
-      packages: write
     steps:
       - name: Code checkout
         uses: actions/checkout@v4
