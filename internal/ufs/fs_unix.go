@@ -751,8 +751,6 @@ func (fs *UnixFS) safePath(path string) (dirfd int, file string, closeFd func(),
 		return
 	}
 
-	closeFd = func() { _ = unix.Close(fsDirfd) }
-
 	// Split the parent from the last element in the path, this gives us the
 	// "file name" and the full path to its parent.
 	var dir string
