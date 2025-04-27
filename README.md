@@ -4,7 +4,7 @@
 ![GitHub Releases](https://img.shields.io/github/downloads/pterodactyl/wings/latest/total)
 [![Go Report Card](https://goreportcard.com/badge/github.com/0x7d8/wings)](https://goreportcard.com/report/github.com/0x7d8/wings)
 
-# Pterodactyl Wings
+# Pterodactyl Wings (but cooler)
 
 Wings is Pterodactyl's server control plane, built for the rapidly changing gaming industry and designed to be
 highly performant and secure. Wings provides an HTTP API allowing you to interface directly with running server
