@@ -59,6 +59,8 @@ type Configuration struct {
 		// Defines the Docker image that will be used for this server
 		Image string `json:"image,omitempty"`
 	} `json:"container,omitempty"`
+
+	Timezone string `json:"timezone"`
 }
 
 func (s *Server) Config() *Configuration {

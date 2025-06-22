@@ -148,7 +148,7 @@ func (s *Server) Context() context.Context {
 func (s *Server) GetEnvironmentVariables() []string {
 	out := []string{
 		// TODO: allow this to be overridden by the user.
-		fmt.Sprintf("TZ=%s", config.Get().System.Timezone),
+		fmt.Sprintf("TZ=%s", s.Config().Timezone),
 		fmt.Sprintf("STARTUP=%s", s.Config().Invocation),
 		fmt.Sprintf("SERVER_MEMORY=%d", s.MemoryLimit()),
 		fmt.Sprintf("SERVER_IP=%s", s.Config().Allocations.DefaultMapping.Ip),

@@ -6,6 +6,8 @@
 
 # Pterodactyl Wings (but cooler)
 
+**This is a fork of Pterodactyl Wings with modifications to support per-server timezones and other enhancements.**
+
 Wings is Pterodactyl's server control plane, built for the rapidly changing gaming industry and designed to be
 highly performant and secure. Wings provides an HTTP API allowing you to interface directly with running server
 instances, fetch server logs, generate backups, and control all aspects of the server lifecycle.
