@@ -42,10 +42,10 @@ jobs:
           GOOS: ${{ matrix.goos }}
           GOARCH: ${{ matrix.goarch }}
           CGO_ENABLED: 0
-          SRC_PATH: github.com/0x7d8/wings
+          SRC_PATH: github.com/kristiangarcia/wings
         run: |
-          go build -v -trimpath -ldflags="-s -w -X ${SRC_PATH}/system.Version=dev-0x7d8-${GIT_SHA:0:7}" -o dist/wings ${SRC_PATH}
-          go build -v -trimpath -ldflags="-X ${SRC_PATH}/system.Version=dev-0x7d8-${GIT_SHA:0:7}" -o dist/wings_debug ${SRC_PATH}
+          go build -v -trimpath -ldflags="-s -w -X ${SRC_PATH}/system.Version=dev-kristiangarcia-${GIT_SHA:0:7}" -o dist/wings ${SRC_PATH}
+          go build -v -trimpath -ldflags="-X ${SRC_PATH}/system.Version=dev-kristiangarcia-${GIT_SHA:0:7}" -o dist/wings_debug ${SRC_PATH}
           chmod 755 dist/*
 
       - name: go test
