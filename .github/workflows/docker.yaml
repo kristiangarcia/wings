@@ -25,7 +25,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/0x7d8/wings
+          images: ghcr.io/kristiangarcia/wings
           flavor: |
             latest=false
           tags: |
