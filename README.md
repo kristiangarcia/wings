@@ -8,6 +8,13 @@
 
 **This is a fork of Pterodactyl Wings with modifications to support per-server timezones and other enhancements.**
 
+## 🐳 Container Package
+
+Pull the latest version with per-server timezone support:
+```bash
+docker pull ghcr.io/kristiangarcia/wings:develop
+```
+
 Wings is Pterodactyl's server control plane, built for the rapidly changing gaming industry and designed to be
 highly performant and secure. Wings provides an HTTP API allowing you to interface directly with running server
 instances, fetch server logs, generate backups, and control all aspects of the server lifecycle.
