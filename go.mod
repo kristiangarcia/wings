@@ -1,4 +1,4 @@
-module github.com/0x7d8/wings
+module github.com/kristiangarcia/wings
 
 go 1.22.2
 

@@ -37,6 +37,9 @@ jobs:
         run: |
           go mod download
 
+      - name: Create dist directory
+        run: mkdir -p dist
+
       - name: Build
         env:
           GOOS: ${{ matrix.goos }}
@@ -44,8 +47,8 @@ jobs:
           CGO_ENABLED: 0
           SRC_PATH: github.com/kristiangarcia/wings
         run: |
-          go build -v -trimpath -ldflags="-s -w -X ${SRC_PATH}/system.Version=dev-kristiangarcia-${GIT_SHA:0:7}" -o dist/wings ${SRC_PATH}
-          go build -v -trimpath -ldflags="-X ${SRC_PATH}/system.Version=dev-kristiangarcia-${GIT_SHA:0:7}" -o dist/wings_debug ${SRC_PATH}
+          go build -v -trimpath -ldflags="-s -w -X ${SRC_PATH}/system.Version=dev-kristiangarcia-${GITHUB_SHA:0:7}" -o dist/wings .
+          go build -v -trimpath -ldflags="-X ${SRC_PATH}/system.Version=dev-kristiangarcia-${GITHUB_SHA:0:7}" -o dist/wings_debug .
           chmod 755 dist/*
 
       - name: go test
