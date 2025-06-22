@@ -23,10 +23,10 @@ import (
 	"github.com/docker/docker/pkg/parsers/operatingsystem"
 	"github.com/spf13/cobra"
 
-	"github.com/0x7d8/wings/config"
-	"github.com/0x7d8/wings/environment"
-	"github.com/0x7d8/wings/loggers/cli"
-	"github.com/0x7d8/wings/system"
+	"github.com/kristiangarcia/wings/config"
+	"github.com/kristiangarcia/wings/environment"
+	"github.com/kristiangarcia/wings/loggers/cli"
+	"github.com/kristiangarcia/wings/system"
 )
 
 const (

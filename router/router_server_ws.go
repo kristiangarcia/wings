@@ -8,8 +8,8 @@ import (
 	"github.com/gin-gonic/gin"
 	ws "github.com/gorilla/websocket"
 
-	"github.com/0x7d8/wings/router/middleware"
-	"github.com/0x7d8/wings/router/websocket"
+	"github.com/kristiangarcia/wings/router/middleware"
+	"github.com/kristiangarcia/wings/router/websocket"
 )
 
 var expectedCloseCodes = []int{

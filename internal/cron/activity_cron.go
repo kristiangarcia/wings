@@ -6,10 +6,10 @@ import (
 
 	"emperror.dev/errors"
 
-	"github.com/0x7d8/wings/internal/database"
-	"github.com/0x7d8/wings/internal/models"
-	"github.com/0x7d8/wings/server"
-	"github.com/0x7d8/wings/system"
+	"github.com/kristiangarcia/wings/internal/database"
+	"github.com/kristiangarcia/wings/internal/models"
+	"github.com/kristiangarcia/wings/server"
+	"github.com/kristiangarcia/wings/system"
 )
 
 type activityCron struct {

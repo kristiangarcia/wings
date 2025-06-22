@@ -14,9 +14,9 @@ import (
 	"github.com/mholt/archives"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/0x7d8/wings/config"
-	"github.com/0x7d8/wings/remote"
-	"github.com/0x7d8/wings/server/filesystem"
+	"github.com/kristiangarcia/wings/config"
+	"github.com/kristiangarcia/wings/remote"
+	"github.com/kristiangarcia/wings/server/filesystem"
 )
 
 var format = archives.CompressedArchive{

@@ -5,7 +5,7 @@ import (
 
 	"github.com/gammazero/workerpool"
 
-	"github.com/0x7d8/wings/internal/ufs"
+	"github.com/kristiangarcia/wings/internal/ufs"
 )
 
 // UpdateConfigurationFiles updates all the defined configuration files for

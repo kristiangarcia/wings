@@ -11,9 +11,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 
-	"github.com/0x7d8/wings/config"
-	"github.com/0x7d8/wings/remote"
-	"github.com/0x7d8/wings/server"
+	"github.com/kristiangarcia/wings/config"
+	"github.com/kristiangarcia/wings/remote"
+	"github.com/kristiangarcia/wings/server"
 )
 
 // AttachRequestID attaches a unique ID to the incoming HTTP request so that any

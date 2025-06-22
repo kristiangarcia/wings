@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/0x7d8/wings/cmd"
+	"github.com/kristiangarcia/wings/cmd"
 )
 
 func main() {

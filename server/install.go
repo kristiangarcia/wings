@@ -18,10 +18,10 @@ import (
 	"github.com/docker/docker/api/types/mount"
 	"github.com/docker/docker/client"
 
-	"github.com/0x7d8/wings/config"
-	"github.com/0x7d8/wings/environment"
-	"github.com/0x7d8/wings/remote"
-	"github.com/0x7d8/wings/system"
+	"github.com/kristiangarcia/wings/config"
+	"github.com/kristiangarcia/wings/environment"
+	"github.com/kristiangarcia/wings/remote"
+	"github.com/kristiangarcia/wings/system"
 )
 
 // Install executes the installation stack for a server process. Bubbles any

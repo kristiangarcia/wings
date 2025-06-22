@@ -10,7 +10,7 @@ import (
 	"emperror.dev/errors"
 	"github.com/docker/docker/api/types/container"
 
-	"github.com/0x7d8/wings/environment"
+	"github.com/kristiangarcia/wings/environment"
 )
 
 // Uptime returns the current uptime of the container in milliseconds. If the

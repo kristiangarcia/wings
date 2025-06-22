@@ -8,7 +8,7 @@ import (
 
 	"github.com/apex/log"
 
-	"github.com/0x7d8/wings/parser"
+	"github.com/kristiangarcia/wings/parser"
 )
 
 const (

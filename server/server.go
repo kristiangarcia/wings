@@ -13,12 +13,12 @@ import (
 	"github.com/apex/log"
 	"github.com/creasty/defaults"
 
-	"github.com/0x7d8/wings/config"
-	"github.com/0x7d8/wings/environment"
-	"github.com/0x7d8/wings/events"
-	"github.com/0x7d8/wings/remote"
-	"github.com/0x7d8/wings/server/filesystem"
-	"github.com/0x7d8/wings/system"
+	"github.com/kristiangarcia/wings/config"
+	"github.com/kristiangarcia/wings/environment"
+	"github.com/kristiangarcia/wings/events"
+	"github.com/kristiangarcia/wings/remote"
+	"github.com/kristiangarcia/wings/server/filesystem"
+	"github.com/kristiangarcia/wings/system"
 )
 
 // Server is the high level definition for a server instance being controlled

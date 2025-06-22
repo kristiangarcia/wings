@@ -17,7 +17,7 @@ import (
 	"emperror.dev/errors"
 	"github.com/google/uuid"
 
-	"github.com/0x7d8/wings/server"
+	"github.com/kristiangarcia/wings/server"
 )
 
 var client *http.Client

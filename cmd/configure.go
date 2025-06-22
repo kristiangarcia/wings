@@ -16,7 +16,7 @@ import (
 	"github.com/AlecAivazis/survey/v2/terminal"
 	"github.com/spf13/cobra"
 
-	"github.com/0x7d8/wings/config"
+	"github.com/kristiangarcia/wings/config"
 )
 
 var configureArgs struct {

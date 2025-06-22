@@ -15,8 +15,8 @@ import (
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/gin-gonic/gin"
 
-	"github.com/0x7d8/wings/router/middleware"
-	"github.com/0x7d8/wings/server/filesystem"
+	"github.com/kristiangarcia/wings/router/middleware"
+	"github.com/kristiangarcia/wings/server/filesystem"
 )
 
 func postServerSearchFiles(c *gin.Context) {

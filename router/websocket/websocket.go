@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0x7d8/wings/internal/models"
+	"github.com/kristiangarcia/wings/internal/models"
 
 	"emperror.dev/errors"
 	"github.com/apex/log"
@@ -18,13 +18,13 @@ import (
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
 
-	"github.com/0x7d8/wings/system"
+	"github.com/kristiangarcia/wings/system"
 
-	"github.com/0x7d8/wings/config"
-	"github.com/0x7d8/wings/environment"
-	"github.com/0x7d8/wings/environment/docker"
-	"github.com/0x7d8/wings/router/tokens"
-	"github.com/0x7d8/wings/server"
+	"github.com/kristiangarcia/wings/config"
+	"github.com/kristiangarcia/wings/environment"
+	"github.com/kristiangarcia/wings/environment/docker"
+	"github.com/kristiangarcia/wings/router/tokens"
+	"github.com/kristiangarcia/wings/server"
 )
 
 const (

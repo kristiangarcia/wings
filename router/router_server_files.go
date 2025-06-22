@@ -18,13 +18,13 @@ import (
 	"github.com/gin-gonic/gin"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/0x7d8/wings/config"
-	"github.com/0x7d8/wings/internal/models"
-	"github.com/0x7d8/wings/router/downloader"
-	"github.com/0x7d8/wings/router/middleware"
-	"github.com/0x7d8/wings/router/tokens"
-	"github.com/0x7d8/wings/server"
-	"github.com/0x7d8/wings/server/filesystem"
+	"github.com/kristiangarcia/wings/config"
+	"github.com/kristiangarcia/wings/internal/models"
+	"github.com/kristiangarcia/wings/router/downloader"
+	"github.com/kristiangarcia/wings/router/middleware"
+	"github.com/kristiangarcia/wings/router/tokens"
+	"github.com/kristiangarcia/wings/server"
+	"github.com/kristiangarcia/wings/server/filesystem"
 )
 
 // getServerFileContents returns the contents of a file on the server.

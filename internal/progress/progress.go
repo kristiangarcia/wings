@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/0x7d8/wings/system"
+	"github.com/kristiangarcia/wings/system"
 )
 
 // Progress is used to track the progress of any I/O operation that are being

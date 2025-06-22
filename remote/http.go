@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/0x7d8/wings/internal/models"
+	"github.com/kristiangarcia/wings/internal/models"
 
 	"emperror.dev/errors"
 	"github.com/apex/log"
 	"github.com/cenkalti/backoff/v4"
 
-	"github.com/0x7d8/wings/system"
+	"github.com/kristiangarcia/wings/system"
 )
 
 type Client interface {

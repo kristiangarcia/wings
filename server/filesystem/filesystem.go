@@ -17,8 +17,8 @@ import (
 	"github.com/gabriel-vasile/mimetype"
 	ignore "github.com/sabhiram/go-gitignore"
 
-	"github.com/0x7d8/wings/config"
-	"github.com/0x7d8/wings/internal/ufs"
+	"github.com/kristiangarcia/wings/config"
+	"github.com/kristiangarcia/wings/internal/ufs"
 )
 
 type Filesystem struct {

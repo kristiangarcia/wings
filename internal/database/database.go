@@ -9,9 +9,9 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 
-	"github.com/0x7d8/wings/config"
-	"github.com/0x7d8/wings/internal/models"
-	"github.com/0x7d8/wings/system"
+	"github.com/kristiangarcia/wings/config"
+	"github.com/kristiangarcia/wings/internal/models"
+	"github.com/kristiangarcia/wings/system"
 )
 
 var (

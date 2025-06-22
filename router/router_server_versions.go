@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/0x7d8/wings/router/middleware"
+	"github.com/kristiangarcia/wings/router/middleware"
 )
 
 func FileSHA256(filePath string) (string, error) {

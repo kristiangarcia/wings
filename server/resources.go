@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/0x7d8/wings/environment"
-	"github.com/0x7d8/wings/system"
+	"github.com/kristiangarcia/wings/environment"
+	"github.com/kristiangarcia/wings/system"
 )
 
 // ResourceUsage defines the current resource usage for a given server instance. If a server is offline you

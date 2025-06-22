@@ -90,15 +90,15 @@ func (h *Handler) HandleLog(e *log.Entry) error {
 			// Stacktrace:
 			// readlink test: no such file or directory
 			// failed to read symlink target for 'test'
-			// github.com/0x7d8/wings/server/filesystem.(*Archive).addToArchive
-			//         github.com/0x7d8/wings/server/filesystem/archive.go:166
+			// github.com/kristiangarcia/wings/server/filesystem.(*Archive).addToArchive
+			//         github.com/kristiangarcia/wings/server/filesystem/archive.go:166
 			// ... (Truncated the stack for easier reading)
 			// runtime.goexit
 			//         runtime/asm_amd64.s:1374
 			// **NEW LINE INSERTED HERE**
 			// backup: error while generating server backup
-			// github.com/0x7d8/wings/server.(*Server).Backup
-			//         github.com/0x7d8/wings/server/backup.go:84
+			// github.com/kristiangarcia/wings/server.(*Server).Backup
+			//         github.com/kristiangarcia/wings/server/backup.go:84
 			// ... (Truncated the stack for easier reading)
 			// runtime.goexit
 			//         runtime/asm_amd64.s:1374

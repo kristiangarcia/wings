@@ -15,11 +15,11 @@ import (
 	"github.com/apex/log"
 	"github.com/gammazero/workerpool"
 
-	"github.com/0x7d8/wings/config"
-	"github.com/0x7d8/wings/environment"
-	"github.com/0x7d8/wings/environment/docker"
-	"github.com/0x7d8/wings/remote"
-	"github.com/0x7d8/wings/server/filesystem"
+	"github.com/kristiangarcia/wings/config"
+	"github.com/kristiangarcia/wings/environment"
+	"github.com/kristiangarcia/wings/environment/docker"
+	"github.com/kristiangarcia/wings/remote"
+	"github.com/kristiangarcia/wings/server/filesystem"
 )
 
 type Manager struct {

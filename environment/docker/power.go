@@ -11,8 +11,8 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/client"
 
-	"github.com/0x7d8/wings/environment"
-	"github.com/0x7d8/wings/remote"
+	"github.com/kristiangarcia/wings/environment"
+	"github.com/kristiangarcia/wings/remote"
 )
 
 // OnBeforeStart run before the container starts and get the process

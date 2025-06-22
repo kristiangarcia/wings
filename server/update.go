@@ -3,9 +3,9 @@ package server
 import (
 	"time"
 
-	"github.com/0x7d8/wings/environment/docker"
+	"github.com/kristiangarcia/wings/environment/docker"
 
-	"github.com/0x7d8/wings/environment"
+	"github.com/kristiangarcia/wings/environment"
 )
 
 // SyncWithEnvironment updates the environment for the server to match any of

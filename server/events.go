@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/0x7d8/wings/events"
-	"github.com/0x7d8/wings/system"
+	"github.com/kristiangarcia/wings/events"
+	"github.com/kristiangarcia/wings/system"
 )
 
 // Defines all the possible output events for a server.
