@@ -41,6 +41,7 @@ wings.exe
 
 # IDE/Editor files (VS Code)
 /.vscode
+/.claude
 
 # test files
 test_*/
